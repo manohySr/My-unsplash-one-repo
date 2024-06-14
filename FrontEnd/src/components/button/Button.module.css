@@ -1,0 +1,40 @@
+.btn {
+  border: none;
+  outline: none;
+  display: inline-block;
+  padding: 1.2rem 2rem;
+  border-radius: 1rem;
+  font-size: 1.3rem;
+  font-weight: 700;
+  /* letter-spacing: 0.2px; */
+  color: var(--color-white);
+  box-shadow: 0px 0px 5px rgba(34, 34, 34, 0.4);
+  cursor: pointer;
+}
+
+.btn:hover {
+  box-shadow: 2px 2px 5px rgba(34, 34, 34, 0.4);
+}
+.btn:active {
+  box-shadow: none;
+}
+
+.outlined {
+  font-size: 1.2rem;
+  background-color: transparent !important;
+  padding: 0.6rem 2rem !important;
+  border-radius: 2rem;
+  color: inherit;
+}
+
+.default {
+  background-color: transparent !important;
+  box-shadow: none;
+  color: var(--color-gray);
+}
+.default:hover {
+  box-shadow: 1px 1px 1px rgba(34, 34, 34, 0.4);
+}
+.default:active {
+  box-shadow: 2px 2px 1px rgba(34, 34, 34, 0.4);
+}

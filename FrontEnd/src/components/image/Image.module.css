@@ -1,0 +1,49 @@
+.item {
+  display: block;
+  margin-bottom: 3rem;
+  break-inside: avoid;
+  position: relative;
+  cursor: pointer;
+}
+.item:hover > a {
+  filter: brightness(40%);
+}
+.item:hover > .label {
+  display: block;
+}
+.item:hover > .item-button {
+  display: block;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  border-radius: 2rem;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.189);
+}
+
+/* .image:hover {
+  filter: brightness(40%);
+  background-color: black;
+}  */
+
+.label {
+  display: none;
+  position: absolute;
+  bottom: 0;
+  padding: 2rem;
+  color: var(--color-white);
+  font-size: 1.3rem;
+  font-weight: 700;
+  line-height: 1.8rem;
+}
+
+.item-button {
+  display: none;
+  position: absolute;
+  top: 1rem;
+  right: 1.5rem;
+  color: rgba(185, 18, 18, 0.752) !important;
+  border: 2px solid rgba(185, 18, 18, 0.752);
+  border-radius: 2rem;
+}

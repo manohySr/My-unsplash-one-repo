@@ -1,0 +1,26 @@
+.delete-item {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 30%;
+  padding: 3rem;
+  border-radius: 1rem;
+  background-color: white;
+}
+
+.delete-item__button {
+  display: flex;
+  justify-content: end;
+  /* background-color: orangered; */
+  gap: 1rem;
+}
+
+.for-delete {
+  display: flex;
+  gap: 1rem;
+}
+
+.message-delete > * {
+  font-weight: 700 !important;
+}

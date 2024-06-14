@@ -1,0 +1,32 @@
+.gallery-container {
+  position: relative;
+  height: 80vh;
+  overflow-y: auto; /* Enable vertical scrolling when content overflows */
+}
+.gallery {
+  /* width: 100%; */
+  column-count: 3; /* Create three columns */
+  column-gap: 4rem; /* Add spacing between columns */
+  padding: 2rem;
+}
+
+.gallery-nothing {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 3rem;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding: 10rem;
+  border-radius: 0.5rem;
+  animation: wave 1s ease-out infinite;
+}
+
+@-webkit-keyframes wave {
+  0% {
+    background-color: var(--color-gray);
+  }
+  100% {
+    background-color: #dddddd86;
+  }
+}

@@ -1,0 +1,30 @@
+.search {
+  border: 2px solid var(--color-gray);
+  border-radius: 1rem;
+  padding: 0.2rem;
+  padding-left: 1rem;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+.search__input {
+  font-family: sans-serif;
+  font-weight: 700;
+  padding: 1rem;
+  padding-right: 10rem;
+  color: var(--color-black);
+  border: none;
+  outline: none;
+}
+.search__input::placeholder {
+  font-family: sans-serif;
+  font-size: 1.3rem;
+  font-weight: 300;
+  color: var(--color-gray);
+}
+.search__icon {
+  font-size: 2rem !important;
+  color: var(--color-gray);
+}

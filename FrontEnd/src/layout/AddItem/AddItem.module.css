@@ -1,0 +1,18 @@
+.add-item {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 35%;
+  padding: 3rem;
+  border-radius: 1rem;
+  background-color: white;
+  /* box-shadow: 0px 0px 1000px #000000a1; */
+}
+
+.add-item__button {
+  display: flex;
+  justify-content: end;
+  /* background-color: orangered; */
+  gap: 1rem;
+}

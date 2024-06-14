@@ -1,0 +1,17 @@
+{
+  "name": "my-unsplash-master",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "workspaces": [
+    "Frontend",
+    "Fackend",
+    "image server"
+  ],
+  "scripts": {
+      "dev": "pnpm -r run start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
